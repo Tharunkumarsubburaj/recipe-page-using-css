@@ -1,0 +1,221 @@
+
+/* color variables */
+
+:root{
+    --clr-Stone-100: hsl(30, 54%, 90%);
+    --clr-Stone-150: hsl(30, 18%, 87%);
+    --clr-Stone-600: hsl(30, 10%, 34%);
+    --clr-Stone-900: hsl(24, 5%, 18%);
+    --clr-Brown-800: hsl(14, 45%, 36%);
+    --clr-Rose-800: hsl(332, 51%, 32%);
+    --clr-Rose-50: hsl(330, 100%, 98%);
+}
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* font-family: "Young Serif", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* font-family: "Outfit", sans-serif; */
+
+/* code of body */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-color: var(--clr-Stone-100);
+    padding: 3rem;
+    font-family: "Outfit", sans-serif;
+}
+
+/* code of list item tag */
+
+li{
+    padding: .5rem;
+}
+
+/* code for 1200px to 1800px */
+
+@media(min-width: 1200px) and (max-width: 1800px){
+
+    .mainbox{
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        width: 50%;
+    }
+
+    img{
+        height: 300px;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .Simple{
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .prepare{
+        padding: 1rem;
+        background-color: var(--clr-Rose-50);
+        border-radius: 1rem;
+    }
+
+    .preparetitle{
+        color: var(--clr-Rose-800);
+    }
+
+    .subtittle{
+        color: var(--clr-Brown-800);
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    td{
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.238);
+        padding: .5rem;
+    }
+
+    .value{
+        color: var(--clr-Brown-800);
+        font-weight: 700;
+        font-size: 1rem;   
+    }
+
+    hr{
+        border-top: 0.1rem solid;
+        opacity: .2;
+    }
+}
+
+/* code for 1200px to 1800px */
+
+@media(min-width: 800px) and (max-width: 1200px){
+
+    .mainbox{
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        width: 70%;
+    }
+
+    img{
+        height: 300px;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .Simple{
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .prepare{
+        padding: 1rem;
+        background-color: var(--clr-Rose-50);
+        border-radius: 1rem;
+    }
+
+    .preparetitle{
+        color: var(--clr-Rose-800);
+    }
+
+    .subtittle{
+        color: var(--clr-Brown-800);
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    td{
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.238);
+        padding: .5rem;
+    }
+
+    .value{
+        color: var(--clr-Brown-800);
+        font-weight: 700;
+        font-size: 1rem;   
+    }
+
+    hr{
+        border-top: 0.1rem solid;
+        opacity: .2;
+    }
+}
+
+/* code for 1200px to 1800px */
+
+@media(min-width: 320px) and (max-width: 799px){
+
+    .mainbox{
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        width: 85%;
+    }
+
+    img{
+        height: 300px;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .Simple{
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .prepare{
+        padding: 1rem;
+        background-color: var(--clr-Rose-50);
+        border-radius: 1rem;
+    }
+
+    .preparetitle{
+        color: var(--clr-Rose-800);
+    }
+
+    .subtittle{
+        color: var(--clr-Brown-800);
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    td{
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.238);
+        padding: .5rem;
+    }
+
+    .value{
+        color: var(--clr-Brown-800);
+        font-weight: 700;
+        font-size: 1rem;   
+    }
+
+    hr{
+        border-top: 0.1rem solid;
+        opacity: .2;
+    }
+}
